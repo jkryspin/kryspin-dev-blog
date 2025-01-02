@@ -7,7 +7,10 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 theme = "anemone"
+generate_feeds = true
 
+description = "poggers"
+title = "Kryspin Dev"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -16,3 +19,10 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+list_pages = true
+toc = true
+header_nav = [
+  { url = "/", name_en = "/home/", name_fr = "/accueil/" },
+  { url = "/blog", name_en = "/blog/", name_fr = "/blog/" }
+]
+
